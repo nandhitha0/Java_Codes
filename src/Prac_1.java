@@ -1,3 +1,8 @@
+//Summary:  Java Multithreading
+//✅ "Thread class" approach is simpler but less flexible.
+//✅ "Runnable interface" is more versatile and preferred in large-scale applications.
+//💡 Always use .start() for multithreading — never .run() directly unless testing/debugging.
+
 import java.util.*;
 /*
  --------------------------------------------

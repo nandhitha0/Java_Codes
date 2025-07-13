@@ -1,3 +1,10 @@
+//Summary: Thread Synchronization
+//Race Condition:When multiple threads modify a shared variable without proper synchronization, leading to inconsistent results.
+//Synchronized:A keyword that ensures only one thread at a time can access a method or block.
+//Critical Section:The part of the code (like CakeCount++) that must be executed by only one thread at a time to avoid data corruption.
+//Thread.join():	Makes the main thread wait until the worker threads (t1, t2) finish execution.
+//Shared Resource:The object CakeCounter is shared by both threads to ensure both update the same count.
+
 // Represents a counter that tracks how many cakes are made
 class CakeCounter {
     int CakeCount = 0;  // Shared variable (critical section)
